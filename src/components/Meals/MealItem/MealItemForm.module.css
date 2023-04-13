@@ -1,0 +1,32 @@
+.AmountTextAndNumber {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    display: inline-block;
+}
+
+input {
+    margin-left: 12px;
+    width: 30px;
+    height: 23px;
+    border-width: 1.25px;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #842703;
+    color: white;
+    font-weight: bold;
+    align-items: end;
+}
