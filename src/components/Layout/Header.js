@@ -12,7 +12,7 @@ const Header = (props) => {
                 <HeaderCartButton showCart={props.showCart}/>
             </header>
             <div className={classes['main-image']}>
-                <img src={mealsImage} alt='Delicious food!'s />
+                <img src={mealsImage} alt="Delicious food!" />
             </div>
         </React.Fragment>
     );
