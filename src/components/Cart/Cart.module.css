@@ -44,3 +44,49 @@
     background-color: #8a2b06;
     color: white;
   }
+
+  .itemName, .itemPrice {
+    color: #8a2b06;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .nameAndPrice {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .quantityAndButtons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 30px;
+  }
+
+  .quantity {
+    font-size: large;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .positive, .negative {
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .positive {
+    background-color: green;
+    border: none;
+  }
+
+  .negative {
+    background-color: red;
+    border: none;
+  }
